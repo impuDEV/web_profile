@@ -1,0 +1,83 @@
+{
+  "name": "webotron_fe",
+  "version": "0.1.0",
+  "description": "WEBoTron frontend site constructor",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impuDEV/WEBoTron_fe.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react",
+    "client",
+    "frontend"
+  ],
+  "author": "Alexander Papernov <impudev@gmail.com>",
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/material": "^5.0.4",
+    "@mui/styles": "^5.0.2",
+    "@mui/types": "^7.1.0",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/node": "^16.11.7",
+    "@types/react": "^17.0.35",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-redux": "^7.1.20",
+    "@types/react-router-dom": "^5.3.2",
+    "axios": "^0.24.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.16.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "cross-env": "^7.0.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "nodemon": "^2.0.14",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "dev": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
